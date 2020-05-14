@@ -4,10 +4,10 @@ import (
 	"fmt"
 )
 
+var y = 56
 func main() {
+	//Declare a variable and ASSIGN a VALUE
 	x := 42
-	fmt.Println("Hello, Playground")
 	fmt.Println(x)
-	x = 99
-	
+	fmt.Println(y)
 }
