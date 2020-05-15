@@ -11,10 +11,10 @@ func main() {
 	// and then ASSIGN A VALUE of that type to the variable
 
 	fmt.Println("printing the value of y", y, "ending")
-	fmt.Printf("%T", y)
+	fmt.Printf("%T\n", y)
 	y = "Bond, James Bond"
 
 	fmt.Println("printing the value of y", y, "ending")
-	fmt.Printf("%T", y)
+	fmt.Printf("%T\n", y)
 
 }
